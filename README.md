@@ -4,6 +4,11 @@ A healthcare-focused, simplified laboratory series adapted from the **Huawei HCI
 
 > **Educational use only.** These notebooks are teaching demonstrations. They are not clinical decision-support systems and must not be used for diagnosis, prognosis, treatment, triage, or patient management.
 
+## Notebook editions
+
+- **GitHub/Colab:** ready-to-run course editions for Labs 1–18. Labs 1–5 retain the fuller commented format; later labs are streamlined for quick Colab use.
+- **Google Drive:** the full richly commented teaching editions of **all 18 labs**, intended to accompany the complete lab guide.
+
 ## Course structure
 
 | Lab | Medical problem / focus | AI model | Dataset / data type | Open in Colab |
@@ -42,11 +47,13 @@ The sequence preserves the principal ideas from the Huawei HCIA-AI V4.0 laborato
 
 This repository is an independent educational adaptation and does not imply Huawei endorsement.
 
-## Ready-to-run backup on Google Drive
+## Full commented notebooks on Google Drive
 
-All 18 notebooks are also available in the course Google Drive folder:
+The complete teaching versions of all 18 notebooks are stored in the course Google Drive folder:
 
 https://drive.google.com/drive/folders/1CJgBd9inFLvnVzGmxpkIJfGkh0O2I-e7
+
+The Drive folder is the preferred source when teaching directly from the full Huawei-style lab guide. Access depends on the sharing permissions set by the folder owner.
 
 ## How to run a lab
 
