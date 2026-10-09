@@ -52,7 +52,7 @@ Participants will be able to:
 
 Open:
 
-https://colab.research.google.com/github/dr-lamia/AI-in-Healthcare-Huawei-Labs/blob/main/notebooks/Dental_Workshop_Session_2_CBCT_3D_Segmentation_Interactive.ipynb
+https://colab.research.google.com/github/dr-lamia/AI-in-Healthcare-Huawei-Labs/blob/main/notebooks/Dental_Workshop_Session_2_CBCT_RealDrive_Simple.ipynb
 
 The notebook runs without patient data by generating a small synthetic CBCT-like dataset. It teaches the mechanics of:
 
@@ -60,9 +60,9 @@ The notebook runs without patient data by generating a small synthetic CBCT-like
 
 ### Track C — Optional real dataset
 
-For research after the workshop, participants may explore a properly licensed dental CBCT dataset such as ToothFairy2 from the official source:
+For research after the workshop, participants may explore a properly licensed dental CBCT dataset such as optional external 3D dental dataset from the official source:
 
-https://toothfairy2.grand-challenge.org/dataset/
+
 
 The official dataset requires registration/download. Do not redistribute it inside the workshop repository.
 
@@ -89,4 +89,13 @@ Avoid installing/configuring a full server during the 2-hour core workshop unles
 - 3D Slicer: https://www.slicer.org/
 - MONAI: https://monai.io/
 - MONAI Label: https://github.com/Project-MONAI/MONAILabel
-- ToothFairy2: https://toothfairy2.grand-challenge.org/dataset/
+- optional external 3D dental dataset: 
+
+
+## Course dataset copy
+
+The workshop notebook uses the isolated course dataset folder:
+
+https://drive.google.com/drive/folders/1uZuAxSDNOgDEVt3NFVWhfw9ISwlQudup
+
+This folder contains only de-identified teaching case pairs named `Case_001` through `Case_009`, each with `image.nii.gz` and `label.nii.gz`. It is separate from the original research project folder.
